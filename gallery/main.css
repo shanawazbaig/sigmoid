@@ -1,0 +1,274 @@
+
+/* Contact Section
+--------------------------------*/
+#contact {
+    background: #0a0608;
+    padding: 80px 0 40px 0;
+  }
+  
+  #contact #google-map {
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  
+  #contact .info {
+    color: #333333;
+  }
+  
+  #contact .info i {
+    font-size: 32px;
+    color: #ff8800;
+    float: left;
+  }
+  
+  #contact .info p {
+    padding: 0 0 10px 50px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    font-size: 14px;
+  }
+  
+  #contact .info .email p {
+    padding-top: 5px;
+  }
+  
+  #contact .social-links {
+    padding-bottom: 20px;
+  }
+  
+  #contact .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #contact .social-links a:hover {
+    background: #cc4916;
+    color: #fff;
+  }
+  
+  /*--------------------------------------------------------------
+  # Footer
+  --------------------------------------------------------------*/
+  #footer {
+    background: #343b40;
+    padding: 30px 0;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  #footer .copyright {
+    text-align: center;
+  }
+  
+  #footer .credits {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #ccc;
+  }
+  @font-face {
+    font-family: edosz;
+    src: url(fonts/edosz.ttf);
+  }
+  
+  @font-face {
+    font-family: edosz;
+    src: url(fonts/Black_Finger_Demo.ttf);
+  }
+  
+  .apply {
+    position: relative;
+  }
+  
+  .apply a {
+    font-weight: 400;
+    color: #fff;
+    outline: none;
+    border: 1px solid #000;
+    font-size: 1.3em;
+    padding: 0.4em 0.8em;
+    background: transparent;
+    text-decoration: none;
+    transition: 0.7s all;
+    -webkit-transition: 0.7s all;
+    -moz-transition: 0.7s all;
+    -o-transition: 0.7s all;
+    -ms-transition: 0.7s all;
+  }
+  
+  .apply a:hover {
+    border: 1px solid #fff;
+    background: #fff;
+    color: #000;
+  }
+  
+  .why-join-us p {
+    color: #000;
+  }
+  
+  .why-join-us {
+    padding: 0px;
+  }
+  
+  .why-join-us i {
+    font-size: 1.7em;
+    color: #000;
+    padding-right: 0px;
+  }
+  
+  .footer {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    color: #fff;
+    background-color: #0A0608;
+    text-align: center;
+  }
+  
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /*------------*/
+  
+  .mySlides {display: none;}
+  /* .slideimg {vertical-align: middle;} */
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 320px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: white;
+    background-color: #0A0608;
+    font-family:font2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  .cdlet2{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  
+  @media (min-width: 768px) and (max-width:900px){
+    .cdlet2 {
+      margin-top: 10vh;
+      margin-bottom: 10vh;
+    }
+  }
+  
+  @media (min-width: 900px) and (max-width:1280px){
+    .cdlet2 {
+      margin-top: 10vh;
+      margin-bottom: 5vh;
+    }
+  }
+  
+  @media (min-width: 768px) and (min-height: 1000px){
+    .cdlet2 {
+      margin-top: 15vh;
+      margin-bottom: 5vh;
+    }
+  }
+  @media (width: 1024px) and (height: 1366px){
+    .cdlet2 {
+      margin-top: 10vh;
+      margin-bottom: 10vh;
+    }
+  }
+  
+  
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  
+  
+  .tim{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .timli {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  .timli span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  
+  
+  
+  
